@@ -1,4 +1,4 @@
-/* BLOCK */
+
 .VisualizerControls {
   display: inline-flex;
   align-items: center;
@@ -11,16 +11,11 @@
   width: 4rem;
   padding: 0;
   border-radius: 50%;
-  background-color: var(--secondary);
-}
-
-.VisualizerControls__CenterButton:hover,
-.VisualizerControls__CenterButton:focus {
-  background-color: var(--secondary-dark);
+  background-color:  #c90c0c;
 }
 
 .VisualizerControls__CenterButton:disabled {
-  background-color: var(--gray-500);
+  background-color: rgb(142, 142, 147);
 }
 
 .VisualizerControls__Button {

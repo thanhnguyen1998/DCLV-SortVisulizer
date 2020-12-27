@@ -35,6 +35,7 @@ class App extends Component {
     this.generateRandomArray();
   }
 
+
   generateRandomArray = () => {
     // Generate pseudo-random number between 1 and max
     function getRandomInt(max) {

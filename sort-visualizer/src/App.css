@@ -1,7 +1,4 @@
-@import './_settngs/variables.css';
-
 .App {
-  --footer-height: 64px;
 
   box-sizing: border-box;
   min-height: 100vh;
@@ -9,7 +6,7 @@
   position: relative;
   overflow: scroll;
 
-  padding-bottom: var(--footer-height);
+  padding-bottom: 64px;
   text-align: center;
   color: var(--text-color);
 

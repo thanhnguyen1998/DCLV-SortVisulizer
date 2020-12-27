@@ -1,6 +1,6 @@
 .Bar {
-  background-color: var(--white);
-  color: var(--text-color-dark);
+  background-color: rgb(255, 255, 255);
+  color: rgb(58, 58, 60);
   display: flex;
   flex-direction: column reverse;
   align-items: flex-end;
@@ -17,7 +17,7 @@
 }
 
 .Bar_sorted {
-  background-color: var(--primary);
+  background-color: #069d06;
 }
 
 .Bar_stateD {
@@ -25,11 +25,11 @@
 }
 
 .Bar_stateC {
-  background-color: var(--red);
+  background-color: #c90c0c;
 }
 
 .Bar_stateB {
-  background-color: var(--secondary);
+  background-color: #c90c0c;
 }
 
 .Bar_stateA {

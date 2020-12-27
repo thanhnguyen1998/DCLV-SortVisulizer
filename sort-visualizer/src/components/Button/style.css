@@ -1,37 +1,23 @@
-/* Block */
 .Button {
-  --button-height: 36px;
-  --button-horizontal-padding: 8px;
-  --button-contained-horizontal-padding: 16px;
-  --button-height-dense: 32px;
-  --button-outlined-border-width: 1px;
 
-  /* Typography */
   font-size: 1rem;
   line-height: 2.25rem;
   font-weight: 500;
   text-decoration: none;
-  color: var(--text-color);
+  color: rgb(58, 58, 60);
 
-  padding: 0 var(--button-horizontal-padding);
+  padding: 0 8px;
   background-color: rgba(0, 0, 0, 0);
 
-  /* Display */
   display: inline-flex;
   position: relative;
   align-items: center;
   justify-content: center;
   min-width: 48px;
-  height: var(--button-height);
+  height:36px;
   border: none;
   outline: none;
   font-family: Rajdhani, serif;
-  /* alternate */
-  line-height: inherit;
-  user-select: none;
-  appearance: none;
-  overflow: hidden;
-  vertical-align: middle;
 }
 
 .Button:active {
@@ -43,7 +29,7 @@
 }
 
 .Button:disabled {
-  color: var(--button-disabled-ink-color);
+  color:  rgba(0, 0, 0, 0.37);
   cursor: default;
 }
 
@@ -57,8 +43,6 @@
   vertical-align: top;
 }
 
-.Button__Label {
-}
 
 /* Modifiers */
 .Button_uppercase {
@@ -66,38 +50,32 @@
 }
 
 .Button_dense {
-  height: var(--button-height-dense);
+  height: 32px;
   font-size: 0.8125rem;
 }
 
 .Button_raised {
   color: white;
-  background-color: var(--primary);
+  background-color: #069d06;
   position: relative;
 }
 
 .Button_raised:hover,
 .Button_raised:focus {
   z-index: 4;
-  background-color: var(--primary-dark);
-  box-shadow: var(--elevation-umbra-4) var(--elevation-umbra-color),
-    var(--elevation-penumbra-4) var(--elevation-penumbra-color);
+  background-color: #338a3e;
 }
 
 .Button_raised:active {
   z-index: 8;
-  box-shadow: var(--elevation-umbra-8) var(--elevation-umbra-color),
-    var(--elevation-penumbra-8) var(--elevation-penumbra-color);
 }
 
 .Button_raised:disabled {
   z-index: 0;
-  box-shadow: var(--elevation-umbra-0) var(--elevation-umbra-color),
-    var(--elevation-penumbra-0) var(--elevation-penumbra-color);
 }
 
 .Button_raised:disabled {
-  color: var(--button-disabled-ink-color);
+  color:  rgba(0, 0, 0, 0.37);
 }
 
 .Button_outlined {
@@ -105,7 +83,7 @@
 }
 
 .Button_outlined:disabled {
-  border-color: var(--button-disabled-ink-color);
+  border-color:  rgba(0, 0, 0, 0.37);
 }
 
 .Button_unelevated,
