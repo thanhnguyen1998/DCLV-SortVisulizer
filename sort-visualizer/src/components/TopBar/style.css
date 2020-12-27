@@ -22,7 +22,6 @@
   transition: background-color 500ms ease-in-out;
 }
 
-/* Default Mobile Styles */
 @media (max-width: 599px) {
   .TopBar {
     --top-bar-row-height: 56px;

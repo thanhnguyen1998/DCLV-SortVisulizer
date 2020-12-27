@@ -7,16 +7,13 @@
   left: 0;
   top: 0;
   opacity: 0;
-  background-color: white;
+  background-color: rgb(133, 231, 238);
 }
 
 /* MODIFIERS */
 .Backdrop_opaque {
   opacity: 0.8;
   backdrop-filter: saturate(0.2) blur(5px);
-}
-.Backdrop_dark {
-  background-color: black;
 }
 .Backdrop_clickable {
   cursor: pointer;

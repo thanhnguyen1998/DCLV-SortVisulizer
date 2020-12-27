@@ -1,12 +1,12 @@
 .App {
   /* MD Green 400 */
-  --primary: #66bb6a;
+  --primary: #069d06;
   --primary-light: #98ee99;
   --primary-dark: #338a3e;
 
   /* MD Pink 300 */
-  --secondary: #f06292;
-  --secondary-light: #ff94c2;
+  --secondary: #c90c0c;
+  --secondary-light: #0e0d0d;
   --secondary-dark: #ba2d65;
 
   /* MD Blue 400 */
@@ -25,7 +25,7 @@
   --yellow-dark: #c9bc1f;
 
   /* MD Amber 300 */
-  --amber: #ffd54f;
+  --amber: #36b9b7;
   --amber-light: #ffff81;
   --amber-dark: #c8a415;
 

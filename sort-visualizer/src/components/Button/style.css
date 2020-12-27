@@ -7,7 +7,7 @@
   --button-outlined-border-width: 1px;
 
   /* Typography */
-  font-size: 0.875rem;
+  font-size: 1rem;
   line-height: 2.25rem;
   font-weight: 500;
   text-decoration: none;
@@ -25,7 +25,7 @@
   height: var(--button-height);
   border: none;
   outline: none;
-
+  font-family: Rajdhani, serif;
   /* alternate */
   line-height: inherit;
   user-select: none;

@@ -5,10 +5,15 @@
   flex-direction: column reverse;
   align-items: flex-end;
   transition: 125ms ease-in-out;
+  width: 10em;
+  height: 7em;
 }
 
 .Bar__Text {
   margin: 0 auto 0.25rem;
+  margin-bottom: 1.4em;
+  font-size: 30px;
+  
 }
 
 .Bar_sorted {
@@ -16,7 +21,7 @@
 }
 
 .Bar_stateD {
-  background-color: var(--blue);
+  background-color: #e8a43f;
 }
 
 .Bar_stateC {
@@ -28,5 +33,5 @@
 }
 
 .Bar_stateA {
-  background-color: var(--amber);
+  background-color:#e8a43f;
 }

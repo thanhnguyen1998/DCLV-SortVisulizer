@@ -4,7 +4,6 @@ import './style.css';
 // Sub components
 import SortChart from '../SortChart';
 import VisualizerControls from '../VisualizerControls';
-import ProgressBar from '../ProgressBar';
 import ColorKey from '../ColorKey';
 import SortInfo from '../SortInfo';
 
@@ -168,17 +167,6 @@ class SortVisualizer extends Component {
           sortedIndices={this.state.sortedIndices}
         />
 
-        <div className="SortVisualizer__ProgressBar">
-          <ProgressBar
-            width={
-              this.state.trace.length > 0
-                ? (this.state.traceStep /
-                    (this.state.trace.length - 1)) *
-                  100
-                : 0
-            }
-          />
-        </div>
 
         <VisualizerControls
           onPlay={

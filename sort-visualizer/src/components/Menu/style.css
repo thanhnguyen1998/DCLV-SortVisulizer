@@ -15,12 +15,10 @@
   max-height: 80vh;
   padding: 0;
   margin: 0;
-  border-top: 2px solid var(--primary);
-  box-shadow: var(--box-shadow-2);
-
+  border-top: 2px solid  #069d06;
+  background-color: white;
   text-align: justify;
   list-style: none;
-  background-color: var(--background-color-2);
   overflow: scroll;
 }
 

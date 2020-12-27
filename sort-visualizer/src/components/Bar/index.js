@@ -19,10 +19,10 @@ const Bar = ({
   else if (stateB) classNames += ' Bar_stateB';
   else if (stateA) classNames += ' Bar_stateA';
 
-  let BarStyle = { ...style, width: `${width}%`, height: `${height}%` };
+  let BarStyle = { ...style, width: '${width}%', height: '${height}%' };
   if (stateA || stateB || stateC || stateD) {
-    BarStyle['marginRight'] = `${0.3 * width}%`;
-    BarStyle['marginLeft'] = `${0.3 * width}% `;
+    BarStyle['marginRight'] = `${0.6 * width}%`;
+    BarStyle['marginLeft'] = `${0.6 * width}% `;
   }
 
   return (
